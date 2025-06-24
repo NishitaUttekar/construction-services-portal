@@ -1,0 +1,255 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: sans-serif
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../../Downloads/d046af14-8e16-4c86-bf6c-849b7144e4a6.jpg);
+    height: 830vh;
+    background-size:contain;
+    background-position: center;
+    min-height: 100px;
+}
+
+.logo img{
+    float: left;
+    width: 170px;
+    height: auto;
+}
+
+ul nav{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 150px;
+    margin-right: 40px;
+    font-size: 16px;
+}
+
+ul li{
+    display:inline;
+    background-color: rgba(182, 178, 77, 0.859);
+}
+
+ul nav li a{
+    color: rgb(94, 0, 128);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul nav li a:hover{
+    background-color:rgb(23, 22, 31);
+    text-decoration: none;
+    color: rgba(150, 118, 23, 0.956);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown .w3-button w3-bar-item {
+    background-color: inherit;
+    border: none;
+    padding: 14px 20px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.dropdown-content {
+    margin:5px;
+    display: none;
+    position: absolute;
+    background-color: rgba(182, 179, 77, 0.589);
+    min-width: 126px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: rgb(60, 15, 102);
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color:rgb(23, 22, 31);
+    color: rgba(150, 118, 23, 0.956);
+}
+
+.dropdown:hover .dropdown-content {
+    display:block;
+    border: 0px solid transparent;
+    transition: 0.5 ease;
+    min-height: 10px;
+    list-style-type: none;
+}
+
+h1{
+    color:goldenrod;
+    font-size: 40px;
+    padding-top: 40px;
+    font-family: sans-serif;
+}
+
+.card-1 h2{
+    color:goldenrod;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+h3{
+    color: goldenrod;
+    text-align: right;
+    text-align: top;
+}
+
+p{
+    color:goldenrod;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: left;
+    line-height: normal;
+}
+
+.construction-picture1{
+    padding-top: 100px;
+    height: 100%;
+    width: 100%;
+}
+
+.construction-picture2{
+    padding-top: 100px;
+}
+
+.sp h3{
+    text-align: left;
+    padding-left: 190px;
+}
+
+.sp h1{
+    text-align: left;
+    padding-left: 190px;
+    padding-top:20px;
+    margin: 0%;
+}
+
+.sp p{
+    padding-left:190px;
+    color: azure;
+    margin: 0%;
+}
+
+.sp{
+    display:block;
+    padding: 10px;
+    background-color:rgba(3, 5, 15, 0.789);
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+}
+
+.col-md-3 h2{
+    display:block;
+    padding: 5px;
+    background-color:rgba(255, 239, 215, 0.434);
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.card-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 22%;
+    height: 22%;
+    z-index: 1;
+    position: relative;
+    border-radius: 10px;
+}
+
+.trend-heading{
+    z-index: 5;
+    position:sticky;
+    top: 300px;
+    left: 50px;
+}
+
+.construction-picture1:hover{
+    transition: all;
+    scale: 1.07;
+}
+
+.construction-picture2:hover{
+    transition: all;
+    scale: 1.07;
+}
+
+.construction-picture1:hover .trend-heading{
+    opacity: 1;
+    transform: translate(-50%,-40%);
+    top: 50%;
+    display: block;
+}
+
+.amenities h3{
+    text-align: center;
+    font-size: 150%;
+}
+
+.amenities p{
+    color: beige;
+    font-size: 100%;
+}
+
+.residential{
+    display:inline-block;
+    padding: 10px;
+    background-color:rgba(3, 8, 34, 0.63);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+.industrial{
+    display:inline-block;
+    padding: 10px;
+    background-color:rgba(3, 8, 34, 0.63);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.commercial{
+    display:inline-block;
+    padding: 10px;
+    background-color:rgba(3, 8, 34, 0.63);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.amenities-pics{
+    width: 50%;
+    height: 65%;
+    border-radius: 5px;
+}
