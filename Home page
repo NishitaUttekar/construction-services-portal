@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>WEB NISA Construction</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href=""/w3css/3/w3.css">
+    </head>
+    <body>
+        <header>
+            <div class="main">
+                <div class="logo">
+                    <img src="c:\Users\Kavya\Downloads\nisa logo2 copy.png">
+                </div>
+                <ul>
+                    <nav class="w3-bar w3-black">
+                    <li class="w3-button w3-bar-item"><a href="file:///C:/Users/Kavya/Desktop/SY%20Project/Home.html" target="_parent"><i class="fa fa-home"></i> HOME</a></li>
+                    <li class="w3-button w3-bar-item"><a href="file:///C:/Users/Kavya/Desktop/SY%20Project/About.html" target="_parent">ABOUT</a></li>
+                    <li class="w3-button w3-bar-item"><a href="file:///C:/Users/Kavya/Desktop/SY%20Project/Service.html" target="_parent">SERVICES</a></li>
+                    <div class="dropdown">
+                        <li class="w3-button w3-bar-item"><a href="" target="_parent">PROJECTS ▼</a></li>
+                        <div class="dropdown-content">
+                            <a href="file:///C:/Users/Kavya/Desktop/SY%20Project/Map.html">Map</a>
+                            <a href="file:///C:/Users/Kavya/Desktop/SY%20Project/Ongoing%20Project.html">Ongoing</a>
+                            <a href="file:///C:/Users/Kavya/Desktop/SY%20Project/Completed%20Projects.html">Completed</a>
+                        </div>
+                    </div>
+                    <li class="w3-button w3-bar-item"><a href="file:///C:/Users/Kavya/Desktop/SY%20Project/Our%20team.html" target="_parent">OUR TEAM</a></li>
+                    <li class="w3-button w3-bar-item"><a href="file:///C:/Users/Kavya/Desktop/SY%20Project/Contact.html" target="_parent">CONTACT</a></li>  
+                    </nav>
+                </ul>
+            </div>
+            <div class="title">
+                <section id="home">
+                    <h1>BUILDING YOUR VISION!</h1>
+                    <h2>We are not just building structures, we are building dreams.</h2>
+                    </br></br>
+                    <button><a href="Consultation form.html" target="_parent">Book a Consultation</a></button>
+                    </br></br>
+                    <footer>
+                        <p>&copy;2024 NISA Construction.All rights reserved.</p>
+                    </footer>
+                </section>
+            </div>
+        </header>
+    </body>
+</html>
