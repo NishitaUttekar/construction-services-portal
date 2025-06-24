@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+
+<body>
+        <div class="main">
+            <div class="logo">
+                <img src="c:\Users\Kavya\Downloads\nisa logo2 copy.png">
+            </div>
+            <ul>
+                <nav class="w3-bar w3-black">
+                <li class="w3-button w3-bar-item"><a href="file:///C:/Users/Kavya/Desktop/SY%20Project/Home.html" target="_parent"> HOME</a></li>
+                <li class="w3-button w3-bar-item"><a href="file:///C:/Users/Kavya/Desktop/SY%20Project/About.html" target="_parent">ABOUT</a></li>
+                <li class="w3-button w3-bar-item"><a href="file:///C:/Users/Kavya/Desktop/SY%20Project/Service.html" target="_parent">SERVICES</a></li>
+                <div class="dropdown">
+                    <li class="w3-button w3-bar-item"><a href="" target="_parent">PROJECTS ▼</a></li>
+                    <div class="dropdown-content">
+                        <a href="file:///C:/Users/Kavya/Desktop/SY%20Project/Map.html">Map</a>
+                        <a href="file:///C:/Users/Kavya/Desktop/SY%20Project/Ongoing%20Project.html">Ongoing</a>
+                        <a href="file:///C:/Users/Kavya/Desktop/SY%20Project/Completed%20Projects.html">Completed</a>
+                    </div>
+                </div>
+                <li class="w3-button w3-bar-item"><a href="file:///C:/Users/Kavya/Desktop/SY%20Project/Our%20team.html" target="_parent">OUR TEAM</a></li>
+                <li class="w3-button w3-bar-item"><a href="file:///C:/Users/Kavya/Desktop/SY%20Project/Contact.html" target="_parent">CONTACT</a></li>  
+                </nav>
+            </ul>
+        </div>
+        <div class="grid-container">
+            <img src="c:\Users\Kavya\Pictures\Screenshots\Screenshot 2025-02-23 164524.png" alt="Image 1">
+            <img src="c:\Users\Kavya\Downloads\nisa logo2.jpg" alt="Image 2">
+        </div>
+        <br><br>
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Karve Road, Deccan, Pune, Maharashtra</p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <p>nisaconstruction123@gmail.com</p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <p>Nishita Uttekar: +91 90211 43741</p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <p>Sayali Kakade: +91 95796 50164</p>
+            </div>
+        </div>
+        <br><br>
+        <div class="contact-form">
+            <h2>Contact Form</h2>
+            <form id="myForm">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="text" name="phone no" placeholder="Your Mobile No" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <script>
+            document.getElementById("myForm").addEventListener("submit", function(event) {
+                event.preventDefault();
+                alert("Form submitted successfully!");
+
+                this.reset();
+            });
+        </script>
+</body>
+</html>
