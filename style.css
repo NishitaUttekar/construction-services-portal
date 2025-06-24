@@ -1,0 +1,150 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../../Downloads/4e069a4a-20be-4f00-a48d-459112f5627f.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 150px;
+    margin-right: 40px;
+    font-size: 16px;
+}
+
+ul li{
+    display:inline;
+    background-color: rgba(182, 178, 77, 0.859);
+}
+
+ul li a{
+    text-decoration: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color:rgb(23, 22, 31);
+    color: rgba(150, 118, 23, 0.956);
+}
+
+ul li.active a{
+    background-color: rgb(0, 0, 0);
+    color: black;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown .w3-button w3-bar-item {
+    background-color: inherit;
+    border: none;
+    padding: 14px 20px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.dropdown-content {
+    margin:5px;
+    display: none;
+    position: absolute;
+    background-color: rgba(182, 179, 77, 0.589);
+    min-width: 126px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color:rgb(23, 22, 31);
+    color: rgba(150, 118, 23, 0.956);
+}
+
+.dropdown:hover .dropdown-content {
+    display:block;
+    border: 0px solid transparent;
+    transition: 0.5 ease;
+    min-height: 10px;
+    list-style-type: none;
+}
+
+.logo img{
+    float:left;
+    width: 170px;
+    height: auto;
+}
+
+.title{
+    position: absolute;
+    top: 46%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color:goldenrod;
+    position: center;
+    font-size: 70px;
+    font-family: sans-serif;
+}
+
+.title h2{
+    color:rgb(169, 135, 49);
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+button{
+    color:rgba(143, 139, 50, 0.859);
+    background-color: rgb(210, 172, 18);
+    border: black;
+    padding: 5px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+button:hover{
+    background-color: rgba(224, 171, 14, 0.688);
+    color: rgb(19, 18, 31);
+}
+
+footer{
+    color:goldenrod;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: bottom;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
